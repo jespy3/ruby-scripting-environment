@@ -25,4 +25,12 @@ docker compose exec box bash
 
 In the container, run:
 ```
+ruby hello_world.rb
 ```
+
+## Optional workflow
+To execute code in the container from outside of it, run:
+```
+./run.sh <code to execute in container>
+```
+
