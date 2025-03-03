@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker compose exec box $@
+docker compose env-ruby/compose.yaml exec box $@
 

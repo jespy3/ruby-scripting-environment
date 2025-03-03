@@ -2,8 +2,9 @@
 
 Copy this repo to have a good foundational docker-based ruby scripting environment using a command like:
 ```
-git clone git@github.com:jespy3/ruby-scripting-environment.git new-repo-name
-cd new-repo-name
+git clone git@github.com:jespy3/ruby-scripting-environment.git env-ruby
+mv env-ruby/run.sh run.sh
+cd env-ruby
 rm -rf .git      # to disassociate the old .git files
 ```
 
